@@ -1,0 +1,39 @@
+/* CSS styles for the "About Us" section */
+
+
+#about {
+    background-image:url("aboutbg.jpg");
+    padding: 100px 0;
+    font-family: sans-serif;
+}
+
+#about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#about .image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#about .image-wrapper img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
